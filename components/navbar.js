@@ -19,14 +19,14 @@ import {
 
 const LinkItem = ({ href, path, children }) => {
   const active = path === href
-  const inverseColor = useColorModeValue('#7C6F64', '#A89984')
-  const themeColor = useColorModeValue('#EBDBB2', '#282828')
+  const grayColorI = useColorModeValue('#7C6F64', '#A89984')
+  const fgColorN = useColorModeValue('#EBDBB2', '#282828')
   return (
     <NextLink href={href}>
       <Link
         p={2}
-        bg={active ? inverseColor : undefined}
-        color={active ? themeColor : inverseColor}
+        bg={active ? grayColorI : undefined}
+        color={active ? fgColorN : grayColorI}
         borderRadius={'lg'}
       >
         {children}
