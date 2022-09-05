@@ -29,7 +29,7 @@ const Logo = () => {
         <LogoBox>
           <Image src={iconImg} width={30} height={30} alt={'logo'} />
           <Text
-            color={useColorModeValue('#3c3836', '#ebdbb2')}
+            color={useColorModeValue('#3C3836', '#EBDBB2')}
             fontFamily={'M PLUS Rounded 1c'}
             fontWeight={'bold'}
             ml={3}

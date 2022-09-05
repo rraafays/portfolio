@@ -19,13 +19,15 @@ import {
 
 const LinkItem = ({ href, path, children }) => {
   const active = path === href
-  const inactiveColor = useColorModeValue('#7C6F64', '#A89984')
+  const inverseColor = useColorModeValue('#7C6F64', '#A89984')
+  const themeColor = useColorModeValue('#EBDBB2', '#282828')
   return (
     <NextLink href={href}>
       <Link
         p={2}
-        bg={active ? '#458588' : undefined}
-        color={active ? '#458588' : inactiveColor}
+        bg={active ? inverseColor : undefined}
+        color={active ? themeColor : inverseColor}
+        borderRadius={'lg'}
       >
         {children}
       </Link>
@@ -41,7 +43,7 @@ const Navbar = props => {
       position={'fixed'}
       as={'nav'}
       w={'100%'}
-      bg={useColorModeValue('#fbf1c7', '#282828')}
+      bg={useColorModeValue('#FBF1C7', '#282828')}
       style={{ backdropFilter: 'blur(10px)' }}
       zIndex={1}
       {...props}
