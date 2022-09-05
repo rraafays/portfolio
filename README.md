@@ -9,7 +9,14 @@ Nextjs project using pnpm package manager
 - Three.js: 3D library for JavaScript
 
 ## Getting started
-Install dependencies
+First, install dependencies:
 ```sh
 pnpm install
 ```
+
+Then, run a dev server:
+```sh
+pnpm dev
+```
+
+Finally, open localhost:3000 in your web browser.
