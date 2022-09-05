@@ -11,8 +11,12 @@ const LogoBox = styled.span`
   height: 30px;
   line-height: 20px;
   padding: 10px;
+  
+  img {
+    transition: 200ms ease;
+  }
 
-  &:hover icon {
+  &:hover img {
     transform: rotate(20deg);
   }
 `
@@ -20,10 +24,10 @@ const LogoBox = styled.span`
 const Logo = () => {
   const iconImg = `/images/pan${useColorModeValue('', '-dark')}.png`
   return (
-    <Link href={'/'}>
+    <Link href={'/'} scroll={false}>
       <a>
         <LogoBox>
-          <Image src={iconImg} width={40} height={40} alt={'logo'} />
+          <Image src={iconImg} width={30} height={30} alt={'logo'} />
           <Text
             color={useColorModeValue('#3c3836', '#ebdbb2')}
             fontFamily={'M PLUS Rounded 1c'}
