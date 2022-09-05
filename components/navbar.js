@@ -82,7 +82,18 @@ const Navbar = props => {
                 variant={'outline'}
                 aria-label={'Options'}
               />
-
+              <MenuList>
+                <NextLink href={'/'} passHref>
+                  <MenuItem as={Link}>About</MenuItem>
+                </NextLink>
+                <NextLink href={'/works'} passHref>
+                  <MenuItem as={Link}>Works</MenuItem>
+                </NextLink>
+                <NextLink href={'/posts'} passHref>
+                  <MenuItem as={Link}>Posts</MenuItem>
+                </NextLink>
+                <MenuItem as={Link} href={'https://www.github.com/rraafays/portfolio'}>source code</MenuItem>
+              </MenuList>
             </Menu>
           </Box>
         </Box>
