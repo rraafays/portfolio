@@ -19,4 +19,4 @@ Then, run a dev server:
 pnpm dev
 ```
 
-Finally, open localhost:3000 in your web browser.
+Finally, open http://localhost:3000 in your web browser.
