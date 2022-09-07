@@ -44,8 +44,8 @@ const Page = () => {
         </Heading>
         <Paragraph>
           Raf is a software student and aspiring full-stack developer based in Leeds with a passion for building digital services/solutions to tackle life's challenges.
-          He has a knack for spotting a problem and creating a solution, from the planning and designing stage all the way to development.
-          Away from the keyboard, he loves creating artworks, exploring music & late night drives.
+          He has a knack for spotting a problem and creating a solution, from the planning & design stage all the way to research & development.
+          Away from the keyboard, he loves creating artwork, exploring music & late-night drives.
           Currently, he is studying at {' '} <Link href='https://www.shu.ac.uk' color={useColorModeValue('#8F3F71', '#D3869B')}>Sheffield Hallam University</Link>.
         </Paragraph>
         <Box align={'center'} my={4}>
