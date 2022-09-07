@@ -3,6 +3,7 @@ import NextLink from 'next/link'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
+import { TimelineSection, TimelineYear } from '../components/timeline'
 
 const Page = () => {
   const grayColorI = useColorModeValue('#7C6F64', '#A89984')
@@ -49,11 +50,34 @@ const Page = () => {
         </Paragraph>
         <Box align={'center'} my={4}>
           <NextLink href={'/works'}>
-            <Button rightIcon={<ChevronRightIcon />} bgColor={useColorModeValue('#076678', '#83A598')}>
+            <Button
+              rightIcon={<ChevronRightIcon />}
+              bgColor={useColorModeValue('#076678', '#83A598')}
+              color={useColorModeValue('#EBDBB2', '#3C3836')}
+            >
               My Portfolio
             </Button>
           </NextLink>
         </Box>
+      </Section>
+      <Section delay={0.2}>
+        <Heading
+          as={'h3'}
+          variant={'section-title'}
+          textDecorationColor={useColorModeValue('#427B58', '#8EC07C')}
+        >
+          Journey
+        </Heading>
+        <TimelineSection>
+          <TimelineYear>2002</TimelineYear>
+          Born in Leeds, UK.
+        </TimelineSection>
+        <TimelineYear>2018</TimelineYear>
+        Started doing art commissions.
+        <TimelineSection>
+          <TimelineYear>2020 to present</TimelineYear>
+          Studys software at Sheffield Hallam University.
+        </TimelineSection>
       </Section>
     </Container>
   )
