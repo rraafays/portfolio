@@ -37,6 +37,9 @@ const LinkItem = ({ href, path, children }) => {
 
 const Navbar = props => {
   const { path } = props
+  const grayColorI = useColorModeValue('#7C6F64', '#A89984')
+  const fgColorN = useColorModeValue('#EBDBB2', '#3C3836')
+  const fgColorI = useColorModeValue('#3C3836', '#EBDBB2')
 
   return (
     <Box
@@ -85,8 +88,15 @@ const Navbar = props => {
                 icon={<HamburgerIcon />}
                 variant={'outline'}
                 aria-label={'Options'}
+                borderWidth={0}
+                backgroundColor={fgColorN}
+                color={fgColorI}
               />
-              <MenuList>
+              <MenuList
+                backgroundColor={fgColorN}
+                color={fgColorI}
+                borderColor={grayColorI}
+              >
                 <NextLink href={'/'} passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
