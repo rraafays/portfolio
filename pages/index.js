@@ -38,7 +38,7 @@ const Page = () => {
         <Heading
           as={'h3'}
           variant={'section-title'}
-          textDecorationColor={useColorModeValue('#AF3A03', '#FE8019')}
+          textDecorationColor={fgColorI}
         >
           About
         </Heading>
@@ -53,13 +53,14 @@ const Page = () => {
             <Button
               rightIcon={<ChevronRightIcon />}
               bgColor={useColorModeValue('#076678', '#83A598')}
-              color={useColorModeValue('#EBDBB2', '#3C3836')}
+              color={fgColorN}
             >
               My Portfolio
             </Button>
           </NextLink>
         </Box>
       </Section>
+
       <Section delay={0.2}>
         <Heading
           as={'h3'}
@@ -75,10 +76,28 @@ const Page = () => {
         <TimelineYear>2018</TimelineYear>
         Started doing art commissions.
         <TimelineSection>
-          <TimelineYear>2020 to present</TimelineYear>
+          <TimelineYear>2019</TimelineYear>
+          Learnt about POSIX compliant software, started daily driving Gentoo Linux.
+        </TimelineSection>
+        <TimelineSection>
+          <TimelineYear>2020 - present</TimelineYear>
           Studys software at Sheffield Hallam University.
         </TimelineSection>
       </Section>
+
+      <Section delay={0.2}>
+        <Heading
+          as={'h3'}
+          variant={'section-title'}
+          textDecorationColor={useColorModeValue('#9D0006', '#FB4934')}
+        >
+          Interests
+        </Heading>
+        <Paragraph>
+          Cooking, Music, Audio Equipment, Art, Device Restoration, Cars
+        </Paragraph>
+      </Section>
+
     </Container>
   )
 }
