@@ -19,7 +19,7 @@ const Page = () => {
           <Heading as={'h2'} variant={'page-title'}>
             Raf Shahid
           </Heading>
-          <p>Digital Chef ( Developer / Painter / Cook )</p>
+          <p>'Digital Chef' ( Developer / Painter / Cook )</p>
         </Box>
         <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align={'center'}>
           <Image
@@ -61,7 +61,7 @@ const Page = () => {
         </Box>
       </Section>
 
-      <Section delay={0.2}>
+      <Section delay={0.1}>
         <Heading
           as={'h3'}
           variant={'section-title'}
@@ -85,7 +85,7 @@ const Page = () => {
         </TimelineSection>
       </Section>
 
-      <Section delay={0.2}>
+      <Section delay={0.1}>
         <Heading
           as={'h3'}
           variant={'section-title'}
@@ -98,6 +98,15 @@ const Page = () => {
         </Paragraph>
       </Section>
 
+      <Section delay={1}>
+        <Heading
+          as={'h1'}
+          variant={'WIP'}
+          color={useColorModeValue('#7C6F64', '#A89984')}
+        >
+          (._.) WIP...
+        </Heading>
+      </Section>
     </Container>
   )
 }
