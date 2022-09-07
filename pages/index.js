@@ -1,4 +1,5 @@
 import { Container, Box, Heading, Image, useColorModeValue } from '@chakra-ui/react'
+import Section from '../components/section'
 
 const Page = () => {
   const grayColorI = useColorModeValue('#7C6F64', '#A89984')
@@ -29,6 +30,16 @@ const Page = () => {
           />
         </Box>
       </Box>
+      <Section delay={0.1}>
+        <Heading
+          as={'h3'}
+          variant={'section-title'}
+          textDecorationColor={useColorModeValue('#FE8019', '#AF3A03')}
+        >
+          About
+        </Heading>
+        <p>placeholder</p>
+      </Section>
     </Container>
   )
 }
