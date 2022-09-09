@@ -20,3 +20,10 @@ pnpm dev
 ```
 
 Finally, open http://localhost:3000 in your web browser.
+
+## Todo List
+- [ ] works page
+- [ ] posts page
+- [ ] art page 
+- [ ] contact page (maybe just a footer?)
+- [ ] create three js element 
