@@ -49,7 +49,7 @@ const Page = () => {
           Currently, he is studying at {' '} <Link href='https://www.shu.ac.uk' color={useColorModeValue('#8F3F71', '#D3869B')}>Sheffield Hallam University</Link>.
         </Paragraph>
         <Box align={'center'} my={4}>
-          <NextLink href={'/works'}>
+          <NextLink href={'/projects'}>
             <Button
               rightIcon={<ChevronRightIcon />}
               bgColor={useColorModeValue('#076678', '#83A598')}
