@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import WorkGridItem from '../components/grid-item'
-import GentooThumb from ../
+import GentooThumb from '../public/images/projects/GentooThumb.png'
 
 const Projects = () => {
   return (
