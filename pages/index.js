@@ -73,8 +73,10 @@ const Page = () => {
           <TimelineYear>2002</TimelineYear>
           Born in Leeds, UK.
         </TimelineSection>
-        <TimelineYear>2018</TimelineYear>
-        Started doing art commissions.
+        <TimelineSection>
+          <TimelineYear>2018</TimelineYear>
+          Started doing art commissions.
+        </TimelineSection>
         <TimelineSection>
           <TimelineYear>2019</TimelineYear>
           Learnt about POSIX compliant software, started daily driving Gentoo Linux.
