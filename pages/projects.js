@@ -1,6 +1,6 @@
 import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
-import ProjectGridItem from '../components/grid-item'
+import { ProjectGridItem } from '../components/grid-item'
 import GentooThumb from '../public/images/projects/GentooThumb.png'
 
 const Projects = () => {
