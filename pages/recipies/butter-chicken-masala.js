@@ -29,7 +29,7 @@ const Page = () => {
           <ListItem><MinusIcon />&ensp;yogurt - 1/2 cup</ListItem>
           <ListItem><MinusIcon />&ensp;minced garlic - 1 1&2tbsp</ListItem>
           <ListItem><MinusIcon />&ensp;minced ginger - 1tbsp</ListItem>
-          <ListItem><MinusIcon />&ensp;garam masala - 2tsp</ListItem>
+          <ListItem><MinusIcon />&ensp;gurram masala - 2tsp</ListItem>
           <ListItem><MinusIcon />&ensp;tumeric - 1tsp</ListItem>
           <ListItem><MinusIcon />&ensp;cumin - 1tsp</ListItem>
           <ListItem><MinusIcon />&ensp;chilli powder - 1tsp</ListItem>
@@ -66,7 +66,7 @@ const Page = () => {
           <b>3</b>&emsp;heat butter or ghee in the same pan. Fry the onions until they start to sweat (about 6 minutes) while scraping up any browned bits stuck on the bottom of the pan
         </Paragraph>
         <Paragraph>
-          <b>4</b>&emsp;add garlic and ginger and sauté for 1 minute until fragrant, then add ground coriander, cumin and garam masala. Let cook for about 20 seconds until fragrant, while stirring occasionally
+          <b>4</b>&emsp;add garlic and ginger and sauté for 1 minute until fragrant, then add ground coriander, cumin and gurram masala. Let cook for about 20 seconds until fragrant, while stirring occasionally
         </Paragraph>
         <Paragraph>
           <b>5</b>&emsp;add crushed tomatoes, chili powder and salt. Let simmer for about 10-15 minutes, stirring occasionally until sauce thickens and becomes a deep brown red colour
