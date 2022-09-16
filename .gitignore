@@ -1,2 +1,8 @@
+# node modules
 node_modules/
+
+# next cache
 .next/
+
+# mac specific
+.DS_Store
