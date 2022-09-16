@@ -74,6 +74,10 @@ const Page = () => {
           Born in Leeds, UK.
         </TimelineSection>
         <TimelineSection>
+          <TimelineYear>2016</TimelineYear>
+          Studied Computer Science GCSE, took interest in software development.
+        </TimelineSection>
+        <TimelineSection>
           <TimelineYear>2018</TimelineYear>
           Started doing art commissions.
         </TimelineSection>
