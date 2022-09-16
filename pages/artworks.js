@@ -1,8 +1,10 @@
 import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import InkBlotWoman from '../public/images/artworks/ink-blot-woman.jpeg'
 
+import InkBlotWoman from '../public/images/artworks/ink-blot-woman.jpeg'
+import Untitled01 from '../public/images/artworks/untitled01.jpg'
+import Untitled02 from '../public/images/artworks/untitled02.jpg'
 const Artworks = () => {
   return (
     <Container>
@@ -15,7 +17,23 @@ const Artworks = () => {
             title={'Ink Blot Woman'}
             thumbnail={InkBlotWoman}
           >
-            16/07/2021
+            16/07/21
+          </GridItem>
+        </Section>
+        <Section>
+          <GridItem
+            title={'untitled'}
+            thumbnail={Untitled01}
+          >
+            04/03/21
+          </GridItem>
+        </Section>
+        <Section>
+          <GridItem
+            title={'untitled'}
+            thumbnail={Untitled02}
+          >
+            23/03/21
           </GridItem>
         </Section>
       </SimpleGrid>
