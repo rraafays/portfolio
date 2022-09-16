@@ -3,9 +3,9 @@ import Image from 'next/image'
 import { Box, Text, LinkOverlay, LinkBox } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 
-export const GridItem = ({ children, href, title, thumbnail }) => (
+export const GridItem = ({ children, title, thumbnail }) => (
   <Box w={'100%'} textAlign={'center'}>
-    <LinkBox cursor={'pointer'}>
+    <LinkBox cursor={'default'}>
       <Image
         src={thumbnail}
         alt={title}
@@ -13,9 +13,7 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
         placeholder={'blur'}
         loading={'lazy'}
       />
-      <LinkOverlay href={href} target={'_blank'}>
-        <Text mt={2}>{title}</Text>
-      </LinkOverlay>
+      <Text mt={2} fontWeight={'bold'}>{title}</Text>
       <Text fontSize={14}>{children}</Text>
     </LinkBox>
   </Box>
@@ -32,7 +30,7 @@ export const ProjectGridItem = ({ children, id, title, thumbnail }) => (
           placeholder={'blur'}
         />
         <LinkOverlay href={`/projects/${id}`}>
-          <Text mt={2} fontSize={20}>
+          <Text mt={2} fontSize={20} fontWeight={'bold'}>
             {title}
           </Text>
         </LinkOverlay>
@@ -53,7 +51,7 @@ export const RecipieGridItem = ({ children, id, title, thumbnail }) => (
           placeholder={'blur'}
         />
         <LinkOverlay href={`/projects/${id}`}>
-          <Text mt={2} fontSize={20}>
+          <Text mt={2} fontSize={20} fontWeight={'bold'}>
             {title}
           </Text>
         </LinkOverlay>

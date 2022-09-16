@@ -14,7 +14,8 @@ const Recipies = () => {
           <RecipieGridItem
             id={'butter-chicken-masala'}
             title={'Murgh Makhani Masala'}
-            thumbnail={ButterChickenThumb}>
+            thumbnail={ButterChickenThumb}
+          >
             Flavourful one-pot butter chicken masala
           </RecipieGridItem>
         </Section>
