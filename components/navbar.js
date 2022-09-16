@@ -81,6 +81,9 @@ const Navbar = props => {
           <LinkItem href={'/artworks'} path={path}>
             Artworks
           </LinkItem>
+          <LinkItem href={'/sound-advice'} path={path}>
+            Sound Advice
+          </LinkItem>
         </Stack>
         <Box flex={1} align={'right'}>
           <ThemeToggleButton />
@@ -111,6 +114,9 @@ const Navbar = props => {
                 </NextLink>
                 <NextLink href={'/artworks'} passHref>
                   <MenuItem as={Link}>Artworks</MenuItem>
+                </NextLink>
+                <NextLink href={'/sound-advice'} passHref>
+                  <MenuItem as={Link}>Sound Advice</MenuItem>
                 </NextLink>
                 <MenuItem as={Link} href={'https://www.github.com/rraafays/portfolio'}>source code</MenuItem>
               </MenuList>
