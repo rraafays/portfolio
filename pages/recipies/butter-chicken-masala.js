@@ -31,8 +31,27 @@ const Page = () => {
           <ListItem><MinusIcon />&ensp;garam masala - 2tsp</ListItem>
           <ListItem><MinusIcon />&ensp;tumeric - 1tsp</ListItem>
           <ListItem><MinusIcon />&ensp;cumin - 1tsp</ListItem>
-          <ListItem><MinusIcon />&ensp;chili powder - 1tsp</ListItem>
+          <ListItem><MinusIcon />&ensp;chilli powder - 1tsp</ListItem>
           <ListItem><MinusIcon />&ensp;salt - 1tsp</ListItem>
+        </List>
+      </Section>
+      <Section delay={0.1}>
+        <Heading as={'h3'} variant={'section-title'}>
+          Shorba
+        </Heading>
+        <List>
+          <ListItem><MinusIcon />&ensp;olive oil - 2tbsp</ListItem>
+          <ListItem><MinusIcon />&ensp;ghee - 2tbsp (butter - 1tbsp + oil - 1tbsp)</ListItem>
+          <ListItem><MinusIcon />&ensp;diced onion - 1 large</ListItem>
+          <ListItem><MinusIcon />&ensp;minced garlic - 1tbsp</ListItem>
+          <ListItem><MinusIcon />&ensp;minced ginger - 1tbsp</ListItem>
+          <ListItem><MinusIcon />&ensp;cumin - 2tsp</ListItem>
+          <ListItem><MinusIcon />&ensp;gurram masala - 2tsp</ListItem>
+          <ListItem><MinusIcon />&ensp;chilli powder - 2tsp</ListItem>
+          <ListItem><MinusIcon />&ensp;salt - 1tsp</ListItem>
+          <ListItem><MinusIcon />&ensp;coconut milk - 1 cup</ListItem>
+          <ListItem><MinusIcon />&ensp;sugar - 1tbsp</ListItem>
+          <ListItem><MinusIcon />&ensp;fenugreek seeds - 1/2tbsp</ListItem>
         </List>
       </Section>
     </Container>
