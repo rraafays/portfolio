@@ -11,7 +11,7 @@ const Projects = () => {
       </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <ProjectGridItem id={'Gentoo'} title={'Gentoo'} thumbnail={GentooThumb}>
+          <ProjectGridItem id={'gentoo-system'} title={'Gentoo System'} thumbnail={GentooThumb}>
             My portage configuration for my Gentoo Linux Development system
           </ProjectGridItem>
         </Section>
