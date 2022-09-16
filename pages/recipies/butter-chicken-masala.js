@@ -75,7 +75,7 @@ const Page = () => {
           <b>6</b>&emsp;pour the puréed sauce back into the pot. Stir the cream, sugar and crushed kasoori methi (or fenugreek leaves) through the sauce. Add the chicken with juices back into the pot and cook for an additional 8-10 minutes until chicken is cooked through and the sauce is thick and bubbling
         </Paragraph>
         <Paragraph>
-          <b>7</b>&emsp;garnish with chopped cilantro and serve with fresh, naan
+          <b>7</b>&emsp;garnish with chopped coriander and serve with fresh, naan
         </Paragraph>
         <Paragraph>
           <b>8</b>&emsp;enjoy with a can of mirinda
