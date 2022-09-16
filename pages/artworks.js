@@ -8,10 +8,11 @@ import Untitled02 from '../public/images/artworks/untitled02.jpg'
 const Artworks = () => {
   return (
     <Container>
-      <Heading as={'h3'} fontSize={20} mb={4}>
+      <Heading as={'h3'} fontSize={20}>
         Artworks
       </Heading>
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <p>Mediums used; ink, correction fluid, occasionally watercolours</p>
+      <SimpleGrid columns={[1, 1, 2]} gap={6} paddingTop={4}>
         <Section>
           <GridItem
             title={'Ink Blot Woman'}
