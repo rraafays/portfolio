@@ -4,6 +4,7 @@ import { PlaylistGridItem } from '../components/grid-item'
 
 import SimmerSauté from '../public/images/playlists/simmer-sauté.jpeg'
 import VroomVroom from '../public/images/playlists/vroom-vroom.jpeg'
+import Sonatine from '../public/images/playlists/sonatine.jpeg'
 
 const SoundAdvice = () => {
   return (
@@ -28,6 +29,14 @@ const SoundAdvice = () => {
             thumbnail={VroomVroom}
           >
             drifting between cities
+          </PlaylistGridItem>
+        </Section>
+        <Section>
+          <PlaylistGridItem
+            href={'https://open.spotify.com/playlist/6HFj5io9wjiDZa5v9EIBrW'}
+            title={'sonatine'}
+            thumbnail={Sonatine}
+          >
           </PlaylistGridItem>
         </Section>
       </SimpleGrid>
