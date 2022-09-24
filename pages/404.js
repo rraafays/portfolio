@@ -7,19 +7,22 @@ import {
   Divider,
   Button
 } from '@chakra-ui/react'
+import Layout from '../components/layouts/article'
 
 const NotFound = () => {
   return (
-    <Container>
-      <Heading as={'h1'} align={'center'} fontSize={180}>404</Heading>
-      <Text align={'center'}>the world is not ready for this page.</Text>
-      <Divider my={6} />
-      <Box my={6} align={'center'}>
-        <NextLink href={"/"}>
-          <Button>Home</Button>
-        </NextLink>
-      </Box>
-    </Container>
+    <Layout>
+      <Container>
+        <Heading as={'h1'} align={'center'} fontSize={180}>404</Heading>
+        <Text align={'center'}>the world is not ready for this page.</Text>
+        <Divider my={6} />
+        <Box my={6} align={'center'}>
+          <NextLink href={"/"}>
+            <Button>Home</Button>
+          </NextLink>
+        </Box>
+      </Container>
+    </Layout>
   )
 }
 

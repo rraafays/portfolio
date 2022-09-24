@@ -107,16 +107,6 @@ const Page = () => {
             <Link href='/sound-advice' color={useColorModeValue('#076678', '#83A598')}>Music</Link>, Audio Equipment, Device Restoration, Cars
           </Paragraph>
         </Section>
-
-        <Section delay={1}>
-          <Heading
-            as={'h1'}
-            variant={'WIP'}
-            color={useColorModeValue('#7C6F64', '#A89984')}
-          >
-            (._.) WIP...
-          </Heading>
-        </Section>
       </Container>
     </Layout>
   )
