@@ -14,7 +14,7 @@ const NotFound = () => {
     <Layout>
       <Container>
         <Heading as={'h1'} align={'center'} fontSize={180}>404</Heading>
-        <Text align={'center'}>the world is not ready for this page.</Text>
+        <Text align={'center'}>the world's just not ready for this page.</Text>
         <Divider my={6} />
         <Box my={6} align={'center'}>
           <NextLink href={"/"}>
