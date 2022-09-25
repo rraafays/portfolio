@@ -23,7 +23,7 @@ export const Title = ({ children }) => (
   </Box>
 )
 
-export const ProjectBanner = ({ src, alt }) => (
+export const Banner = ({ src, alt }) => (
   <Image borderRadius={'lg'} w={'full'} src={src} alt={alt} mb={4} />
 )
 

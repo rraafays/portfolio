@@ -6,7 +6,7 @@ import {
 } from '@chakra-ui/react'
 import {
   Title,
-  ProjectBanner,
+  Banner,
   Info
 } from '../../components/project'
 import Paragraph from '../../components/paragraph'
@@ -16,7 +16,7 @@ const Pomo = () => {
   return (
     <Layout>
       <Container>
-        <ProjectBanner src={'/images/projects/PomoThumb.png'} />
+        <Banner src={'/images/projects/PomoThumb.png'} />
         <Title>
           pomo <Badge>2022</Badge>
         </Title>
