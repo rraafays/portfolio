@@ -26,7 +26,7 @@ const Page = () => {
         </Section>
         <Section delay={0.1}>
           <Track
-            titleN={'1'}
+            n={'1'}
             title={'Feather'}
             stars={'★★★★★'}
           >
@@ -37,12 +37,12 @@ const Page = () => {
 
           </Track>
           <Track
-            titleN={2}
+            n={2}
             title={'Ordinary Joe'}
             stars={'★★★☆☆'}
           />
           <Track
-            titleN={3}
+            n={3}
             title={'Reflection Eternal'}
             stars={'★★★★☆'}
           >
@@ -52,7 +52,7 @@ const Page = () => {
             the runtime fly by in a good and effortless way.
           </Track>
           <Track
-            titleN={4}
+            n={4}
             title={'Luv (Sic), Part 3'}
             stars={'★★★★★'}
           >
@@ -64,12 +64,12 @@ const Page = () => {
 
           </Track>
           <Track
-            titleN={5}
+            n={5}
             title={'Music is Mine'}
             stars={'★★★☆☆'}
           />
           <Track
-            titleN={6}
+            n={6}
             title={'Eclipse'}
             stars={'★★★★★'}
           >
@@ -83,7 +83,7 @@ const Page = () => {
 
           </Track>
           <Track
-            titleN={7}
+            n={7}
             title={'The Sign'}
             stars={'★★★★☆'}
           >
@@ -92,7 +92,7 @@ const Page = () => {
             It lacks those chunky Nujabes drum beat I love so much but I absolutely am nitpicking.
           </Track>
           <Track
-            titleN={8}
+            n={8}
             title={'Thank You'}
             stars={'★★★★☆'}
           >
@@ -104,29 +104,48 @@ const Page = () => {
             thing to hear and only truly gets appreciated on consecutive listens.
           </Track>
           <Track
-            titleN={9}
+            n={9}
             title={'World\'s End Rhapsody'}
+            stars={'★★★☆☆'}
           />
           <Track
-            titleN={10}
+            n={10}
             title={'Modal Soul'}
-          />
+            stars={'★★★★★'}
+          >
+            This track definitely earns it's self titled status with its complex harmonies.
+            Though this track may come across quite simple upon a first listen, successive
+            listens reveal the many instrumental layers this track contains.
+            This plus the fact that it was co created by Uyama Hiroto who is considered
+            the only person Nujabes taught is the icing on the cake.
+          </Track>
           <Track
-            titleN={11}
+            n={11}
             title={'Flowers'}
-            stars={'★★★★☆'}
+            stars={'★★★☆☆'}
           />
           <Track
-            titleN={12}
+            n={12}
             title={'Sea of Cloud'}
-          />
+            stars={'★★★★☆'}
+          >
+            Possibly the most dream sounding song in this entire album, there are few layers
+            to this track considering Nujabe's style. Make no mistake however that the samples used
+            absolutely give an almost shoegaze level of bliss due to the smart sparsity of them.
+          </Track>
           <Track
-            titleN={13}
+            n={13}
             title={'Light on the Land'}
-          />
+            stars={'★★★★☆'}
+          >
+            Fittingly, this feels like a brighter alternative to sea of cloud.
+            Still creating a dreamy and charming atmosphere but this time an atmosphere more
+            reminiscent of a sunny morning drive through the country-side.
+          </Track>
           <Track
-            titleN={14}
+            n={14}
             title={'Horizon'}
+            stars={'★★★☆☆'}
           />
         </Section>
       </Container>

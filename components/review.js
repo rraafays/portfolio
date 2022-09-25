@@ -29,14 +29,14 @@ export const Banner = ({ src, alt }) => (
   <Image borderRadius={'lg'} w={'full'} src={src} alt={alt} mb={4} />
 )
 
-export const Track = ({ title, titleN, stars, children }) => (
+export const Track = ({ n, title, stars, children }) => (
   <Box>
     <Heading
       as={'h2'}
       variant={'track-title'}
       display={'inline-block'}
     >
-      {titleN} - {title}&ensp;
+      {n} - {title}&ensp;
     </Heading>
     <Badge bgColor={'rgba(215, 153, 33, 0.3)'} color={'#D79921'}>{stars}</Badge>
     <Divider mb={4} />
