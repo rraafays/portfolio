@@ -3,11 +3,13 @@ import {
   Badge,
   List,
   ListItem,
+  Link
 } from '@chakra-ui/react'
 import {
   Title,
   Banner,
-  Info
+  Info,
+  Repo
 } from '../../components/project'
 import Paragraph from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
@@ -18,7 +20,7 @@ const Pomo = () => {
       <Container>
         <Banner src={'/images/projects/PomoThumb.png'} />
         <Title>
-          pomo <Badge>2022</Badge>
+          pomo <Badge>2022</Badge><Repo href={'https://github.com/rraafays/pomo'}>github</Repo>
         </Title>
         <Paragraph>
           Lightweight terminal pomodoro timer used to help me learn new things!
@@ -40,7 +42,7 @@ const Pomo = () => {
           </ListItem>
         </List>
       </Container>
-    </Layout>
+    </Layout >
   )
 }
 

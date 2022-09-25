@@ -4,7 +4,7 @@ import {
   Box,
   Image,
   Link,
-  Badge
+  Badge,
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 
@@ -28,7 +28,15 @@ export const Banner = ({ src, alt }) => (
 )
 
 export const Info = ({ children }) => (
-  <Badge color={'#98971A'} bgColor={'rgba(152, 151, 26, 0.5)'} mr={2}>
+  <Badge color={'#98971A'} bgColor={'rgba(152, 151, 26, 0.3)'} mr={2}>
     {children}
   </Badge>
+)
+
+export const Repo = ({ href, children }) => (
+  <Link href={href}>
+    <Badge color={'#B16286'} bgColor={'rgba(177, 98, 134, 0.3)'} mr={2}>
+      M {children}
+    </Badge>
+  </Link>
 )

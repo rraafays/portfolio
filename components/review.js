@@ -39,7 +39,7 @@ export const Track = ({ title, titleN, stars, children }) => (
     >
       {titleN} - {title}&ensp;
     </Heading>
-    <Badge bgColor={'rgba(215, 153, 33, 0.5)'} color={'#D79921'}>{stars}</Badge>
+    <Badge bgColor={'rgba(215, 153, 33, 0.3)'} color={'#D79921'}>{stars}</Badge>
     <Divider mb={4} />
     <Paragraph>
       {children}
