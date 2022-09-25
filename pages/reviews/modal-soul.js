@@ -103,6 +103,31 @@ const Page = () => {
             effortlessly stays and fits with the rest of the song which is such a rare
             thing to hear and only truly gets appreciated on consecutive listens.
           </Track>
+          <Track
+            titleN={9}
+            title={'World\'s End Rhapsody'}
+          />
+          <Track
+            titleN={10}
+            title={'Modal Soul'}
+          />
+          <Track
+            titleN={11}
+            title={'Flowers'}
+            stars={'★★★★☆'}
+          />
+          <Track
+            titleN={12}
+            title={'Sea of Cloud'}
+          />
+          <Track
+            titleN={13}
+            title={'Light on the Land'}
+          />
+          <Track
+            titleN={14}
+            title={'Horizon'}
+          />
         </Section>
       </Container>
     </Layout >
