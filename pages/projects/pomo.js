@@ -29,16 +29,16 @@ const Pomo = () => {
         </Paragraph>
         <List ml={4} my={4}>
           <ListItem>
-            <Info>platform</Info><span>Linux, Mac OS</span>
+            <Info>oper</Info><span>Linux, Mac OS</span>
           </ListItem>
           <ListItem>
-            <Info>language</Info><span>C</span>
+            <Info>lang</Info><span>C</span>
           </ListItem>
           <ListItem>
-            <Info>workflow</Info><span>Vim, CC</span>
+            <Info>flow</Info><span>Vim, CC</span>
           </ListItem>
           <ListItem>
-            <Info>formfactor</Info><span>Terminal Application</span>
+            <Info>form</Info><span>Terminal Application</span>
           </ListItem>
         </List>
       </Container>
