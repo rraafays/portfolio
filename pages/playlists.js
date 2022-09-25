@@ -12,18 +12,6 @@ const Playlists = () => {
   return (
     <Layout>
       <Container>
-        <Heading
-          as={'h1'}
-          variant={'section-title'}
-        >
-          Motivation
-        </Heading>
-        <Paragraph>
-          My desire to reminisce and discover music with continously improving technology
-          is what drives my passion for both music and high end audio equipment.
-          To spread these experiences I strive to share and receive what I like to call
-          sound advice in hopes of both broading and affirming my collection.
-        </Paragraph>
         <Heading as={'h3'} variant={'section-title'} mb={4} my={4}>
           Playlists
         </Heading>

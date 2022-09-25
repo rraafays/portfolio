@@ -17,10 +17,9 @@ const SoundAdvice = () => {
           Motivation
         </Heading>
         <Paragraph>
-          My desire to reminisce and discover music with continously improving technology
-          is what drives my passion for both music and high end audio equipment.
-          To spread these experiences I strive to share and receive what I like to call
-          sound advice in hopes of both broading and affirming my collection.
+          My desire to reminisce and discover various pieces of art, such as music and videogames with continously
+          improving technology is what drives my passion for these artforms and technology to consume said artforms.
+          To spread these experiences I strive to share and document these experience on this webpage.
         </Paragraph>
         <Heading
           as={'h3'}
