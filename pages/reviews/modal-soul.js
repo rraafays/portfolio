@@ -1,8 +1,5 @@
 import {
   Container,
-  Heading,
-  Divider,
-  Badge,
 } from '@chakra-ui/react'
 import {
   Title,
