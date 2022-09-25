@@ -82,6 +82,29 @@ export const PlaylistGridItem = ({ children, href, title, thumbnail }) => (
   </Box>
 )
 
+export const ReviewGridItem = ({ children, id, title, cover }) => (
+  <Box w={'100%'} textAlign={'center'}>
+    <NextLink href={`/reviews/${id}`} passHref scroll={false}>
+      <LinkBox cursor={'pointer'}>
+        <Image
+          src={cover}
+          alt={title}
+          className={'grid-item-thumbnail'}
+          placeholder={'blur'}
+          width={360}
+          height={360}
+        />
+        <LinkOverlay href={`/reviews/${id}`}>
+          <Text mt={2} fontSize={20} fontWeight={'bold'}>
+            {title}
+          </Text>
+        </LinkOverlay>
+        <Text fontSize={14}>{children}</Text>
+      </LinkBox>
+    </NextLink>
+  </Box>
+)
+
 export const GridItemStyle = () => (
   <Global
     styles={`
