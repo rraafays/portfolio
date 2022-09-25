@@ -28,7 +28,7 @@ export const Banner = ({ src, alt }) => (
 )
 
 export const Info = ({ children }) => (
-  <Badge colorScheme={'cyan'} mr={2}>
+  <Badge color={'#98971A'} bgColor={'rgba(152, 151, 26, 0.5)'} mr={2}>
     {children}
   </Badge>
 )
