@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Divider, Badge, Link } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Divider, Link } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { PlaylistGridItem, ReviewGridItem } from '../components/grid-item'
