@@ -8,7 +8,6 @@ import {
   Badge
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import Paragraph from '../components/paragraph'
 
 export const Title = ({ children }) => (
   <Box>
@@ -40,8 +39,8 @@ export const Track = ({ n, title, stars, children }) => (
     </Heading>
     <Badge bgColor={'rgba(215, 153, 33, 0.3)'} color={'#D79921'}>{stars}</Badge>
     <Divider mb={4} />
-    <Paragraph>
+    <p>
       {children}
-    </Paragraph>
+    </p>
   </Box>
 )
