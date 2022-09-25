@@ -25,7 +25,7 @@ const Page = () => {
           <Badge bgColor={'rgba(215, 153, 33, 0.3)'} color={'#D79921'}>dairy</Badge>
         </Title>
         <SimpleGrid columns={[1, 1, 2]}>
-          <List>
+          <List mb={4}>
             <Heading
               fontSize={20}
               mb={4}
@@ -42,7 +42,7 @@ const Page = () => {
             <Ingredient name={'chilli powder'} quantity={'1tsp'} />
             <Ingredient name={'salt'} quantity={'1tsp'} />
           </List>
-          <List>
+          <List mb={4}>
             <Heading
               fontSize={20}
               mb={4}
