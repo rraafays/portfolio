@@ -39,7 +39,7 @@ const Page = () => {
         <Section delay={0.1}>
           <Heading
             as={'h3'}
-            variant={'section-title'}
+            variant={'index-section-title'}
             textDecorationColor={fgColorI}
           >
             About
@@ -66,7 +66,7 @@ const Page = () => {
         <Section delay={0.1}>
           <Heading
             as={'h3'}
-            variant={'section-title'}
+            variant={'index-section-title'}
             textDecorationColor={useColorModeValue('#427B58', '#8EC07C')}
           >
             Journey
@@ -96,7 +96,7 @@ const Page = () => {
         <Section delay={0.1}>
           <Heading
             as={'h3'}
-            variant={'section-title'}
+            variant={'index-section-title'}
             textDecorationColor={useColorModeValue('#9D0006', '#FB4934')}
           >
             Interests
