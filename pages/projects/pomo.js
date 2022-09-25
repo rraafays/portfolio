@@ -3,7 +3,6 @@ import {
   Badge,
   List,
   ListItem,
-  Link
 } from '@chakra-ui/react'
 import {
   Title,

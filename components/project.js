@@ -36,7 +36,7 @@ export const Info = ({ children }) => (
 export const Repo = ({ href, children }) => (
   <Link href={href}>
     <Badge color={'#B16286'} bgColor={'rgba(177, 98, 134, 0.3)'} mr={2}>
-      M {children}
+      {children}
     </Badge>
   </Link>
 )

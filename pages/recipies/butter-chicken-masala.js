@@ -1,15 +1,16 @@
 import {
+  Badge,
   Container,
   Heading,
   List,
-  ListItem,
+  SimpleGrid,
 } from '@chakra-ui/react'
 import {
   Title,
   Banner,
   Step,
+  Ingredient
 } from '../../components/recipie'
-import { MinusIcon } from '@chakra-ui/icons'
 import Section from '../../components/section'
 import Layout from '../../components/layouts/article'
 
@@ -17,42 +18,51 @@ const Page = () => {
   return (
     <Layout>
       <Container>
-        <Title>Murgh Makhani Masala</Title>
-        <Section delay={0.1}>
-          <Heading as={'h3'} variant={'section-title'}>
-            Marinade
-          </Heading>
+        <Banner src={'/images/recipies/butter-chicken-masala-1-1.jpeg'}></Banner>
+        <Title>
+          Murgh Makhani masala
+          <Badge bgColor={'rgba(204, 36, 29, 0.3)'}>🌶️🌶️</Badge>
+          <Badge bgColor={'rgba(215, 153, 33, 0.3)'} color={'#D79921'}>dairy</Badge>
+        </Title>
+        <SimpleGrid columns={[1, 1, 2]}>
           <List>
-            <ListItem><MinusIcon />&ensp;bite sized chicken thighs - 800g</ListItem>
-            <ListItem><MinusIcon />&ensp;yogurt - 1/2 cup</ListItem>
-            <ListItem><MinusIcon />&ensp;minced garlic - 1 1&2tbsp</ListItem>
-            <ListItem><MinusIcon />&ensp;minced ginger - 1tbsp</ListItem>
-            <ListItem><MinusIcon />&ensp;gurram masala - 2tsp</ListItem>
-            <ListItem><MinusIcon />&ensp;tumeric - 1tsp</ListItem>
-            <ListItem><MinusIcon />&ensp;cumin - 1tsp</ListItem>
-            <ListItem><MinusIcon />&ensp;chilli powder - 1tsp</ListItem>
-            <ListItem><MinusIcon />&ensp;salt - 1tsp</ListItem>
+            <Heading
+              fontSize={20}
+              mb={4}
+            >
+              Marinade
+            </Heading>
+            <Ingredient name={'bite sized chicken thighs'} quantity={'800g'} />
+            <Ingredient name={'natural yogurt'} quantity={'1/2cup'} />
+            <Ingredient name={'minced garlic'} quantity={'2tbsp'} />
+            <Ingredient name={'minced ginger'} quantity={'2tbsp'} />
+            <Ingredient name={'gurram masala'} quantity={'2tsp'} />
+            <Ingredient name={'tumeric'} quantity={'1tsp'} />
+            <Ingredient name={'cumin'} quantity={'1tsp'} />
+            <Ingredient name={'chilli powder'} quantity={'1tsp'} />
+            <Ingredient name={'salt'} quantity={'1tsp'} />
           </List>
-        </Section>
-        <Section delay={0.1}>
-          <Heading as={'h3'} variant={'section-title'}>
-            Shorba
-          </Heading>
           <List>
-            <ListItem><MinusIcon />&ensp;olive oil - 2tbsp</ListItem>
-            <ListItem><MinusIcon />&ensp;ghee - 2tbsp (butter - 1tbsp + oil - 1tbsp)</ListItem>
-            <ListItem><MinusIcon />&ensp;diced onion - 1 large</ListItem>
-            <ListItem><MinusIcon />&ensp;minced garlic - 1tbsp</ListItem>
-            <ListItem><MinusIcon />&ensp;minced ginger - 1tbsp</ListItem>
-            <ListItem><MinusIcon />&ensp;cumin - 2tsp</ListItem>
-            <ListItem><MinusIcon />&ensp;gurram masala - 2tsp</ListItem>
-            <ListItem><MinusIcon />&ensp;chilli powder - 2tsp</ListItem>
-            <ListItem><MinusIcon />&ensp;salt - 1tsp</ListItem>
-            <ListItem><MinusIcon />&ensp;coconut milk - 1 cup</ListItem>
-            <ListItem><MinusIcon />&ensp;sugar - 1tbsp</ListItem>
-            <ListItem><MinusIcon />&ensp;fenugreek seeds - 1/2tbsp</ListItem>
+            <Heading
+              fontSize={20}
+              mb={4}
+            >
+              Shorba
+            </Heading>
+            <Ingredient name={'olive oil'} quantity={'2tbsp'} />
+            <Ingredient name={'ghee (butter + oil)'} quantity={'2tbsp'} />
+            <Ingredient name={'diced onion'} quantity={'1large'} />
+            <Ingredient name={'minced garlic'} quantity={'1tbsp'} />
+            <Ingredient name={'minced ginger'} quantity={'1tbsp'} />
+            <Ingredient name={'cumin'} quantity={'2tsp'} />
+            <Ingredient name={'gurram masala'} quantity={'2tsp'} />
+            <Ingredient name={'chilli powder'} quantity={'2tsp'} />
+            <Ingredient name={'salt'} quantity={'1tsp'} />
+            <Ingredient name={'coconut milk'} quantity={'1cup'} />
+            <Ingredient name={'sugar'} quantity={'1tbsp'} />
+            <Ingredient name={'fenugreek seeds'} quantity={'1/2tbsp'} />
           </List>
-        </Section>
+        </SimpleGrid>
         <Section delay={0.1}>
           <Step stepN={1}>
             in a bowl, combine chicken with all of the ingredients for the chicken marinade; let marinate for 30 minutes to an hour (or overnight if time allows)

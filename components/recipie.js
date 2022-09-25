@@ -1,11 +1,12 @@
 import NextLink from 'next/link'
 import {
-  Container,
   Divider,
   Heading,
   Box,
   Image,
   Link,
+  ListItem,
+  Badge,
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -30,7 +31,7 @@ export const Banner = ({ src, alt }) => (
 )
 
 export const Step = ({ stepN, children }) => (
-  <Container>
+  <Box>
     <Heading
       as={'h2'}
       variant={'track-title'}
@@ -42,5 +43,12 @@ export const Step = ({ stepN, children }) => (
     <Paragraph>
       {children}
     </Paragraph>
-  </Container>
+  </Box>
+)
+
+export const Ingredient = ({ name, quantity }) => (
+  <Box>
+    <ListItem>{name} <Badge>{quantity}</Badge></ListItem>
+    <Divider mb={1} mt={1} />
+  </Box>
 )

@@ -1,6 +1,5 @@
 import NextLink from 'next/link'
 import {
-  Container,
   Divider,
   Heading,
   Box,
@@ -31,7 +30,7 @@ export const Banner = ({ src, alt }) => (
 )
 
 export const Track = ({ title, titleN, stars, children }) => (
-  <Container>
+  <Box>
     <Heading
       as={'h2'}
       variant={'track-title'}
@@ -44,5 +43,5 @@ export const Track = ({ title, titleN, stars, children }) => (
     <Paragraph>
       {children}
     </Paragraph>
-  </Container>
+  </Box>
 )
