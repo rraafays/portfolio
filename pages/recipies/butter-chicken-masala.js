@@ -20,7 +20,7 @@ const Page = () => {
       <Container>
         <Banner src={'/images/recipies/butter-chicken-masala-1-1.jpeg'}></Banner>
         <Title>
-          Murgh Makhani masala{' '}
+          Murgh Makhani Masala{' '}
           <Badge bgColor={'rgba(204, 36, 29, 0.3)'}>🌶️🌶️</Badge>
           <Badge bgColor={'rgba(215, 153, 33, 0.3)'} color={'#D79921'}>dairy</Badge>
         </Title>
