@@ -13,31 +13,29 @@ import {
 import Paragraph from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
-const Pomo = () => {
+const Socks = () => {
   return (
     <Layout>
       <Container>
-        <Banner src={'/images/projects/PomoThumb.png'} />
         <Title>
-          pomo <Badge>2022</Badge><Repo href={'https://github.com/rraafays/pomo'}>github</Repo>
+          socks <Badge>2022</Badge><Repo href={'https://github.com/rraafays/socks'}>github</Repo>
         </Title>
         <Paragraph>
-          Lightweight terminal pomodoro timer used to help me learn new things!
-          Done as my first C program both to put into practice what I have learnt
-          and to help me continue learning C.
+          Socket based client-server messaging application I am currently working on
+          while learning java as part of my Networked Software Development module at university.
         </Paragraph>
         <List ml={4} my={4}>
           <ListItem>
-            <Info>oper</Info><span>Linux, Mac OS</span>
+            <Info>oper</Info><span>Linux, Mac OS, Windows</span>
           </ListItem>
           <ListItem>
-            <Info>lang</Info><span>C</span>
+            <Info>lang</Info><span>Java</span>
           </ListItem>
           <ListItem>
-            <Info>flow</Info><span>vim, cc</span>
+            <Info>flow</Info><span>vim, javac</span>
           </ListItem>
           <ListItem>
-            <Info>form</Info><span>Terminal Application</span>
+            <Info>form</Info><span>Chat Application</span>
           </ListItem>
         </List>
       </Container>
@@ -45,4 +43,4 @@ const Pomo = () => {
   )
 }
 
-export default Pomo
+export default Socks

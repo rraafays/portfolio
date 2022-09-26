@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { ProjectGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
@@ -30,6 +30,15 @@ const Projects = () => {
               thumbnail={PomoThumb}
             >
               Terminal pomodoro timer written in C
+            </ProjectGridItem>
+          </Section>
+          <Section>
+            <ProjectGridItem
+              id={'socks'}
+              title={'socks'}
+              thumbnail={GentooThumb}
+            >
+              Multithreaded client-server messaging application written in Java
             </ProjectGridItem>
           </Section>
         </SimpleGrid>
