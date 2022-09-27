@@ -9,7 +9,6 @@ import {
   Badge,
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import Paragraph from '../components/paragraph'
 
 export const Title = ({ children }) => (
   <Box>
@@ -40,9 +39,9 @@ export const Step = ({ stepN, children }) => (
       {stepN}
     </Heading>
     <Divider mb={4} />
-    <Paragraph>
+    <p>
       {children}
-    </Paragraph>
+    </p>
   </Box>
 )
 
