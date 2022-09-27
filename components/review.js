@@ -25,7 +25,7 @@ export const Title = ({ children }) => (
 )
 
 export const Banner = ({ src, alt }) => (
-  <Image borderRadius={'lg'} w={'full'} src={src} alt={alt} mb={4} />
+  <Image borderRadius={'lg'} w={'full'} src={src} alt={alt} mb={4} placeholder={'blur'} />
 )
 
 export const Track = ({ n, title, stars, children }) => (
