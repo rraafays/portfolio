@@ -50,6 +50,7 @@ const Page = () => {
               Shorba
             </Heading>
             <Ingredient name={'olive oil'} quantity={'2tbsp'} />
+            <Ingredient name={'crushed tomatoes'} quantity={'400g'} />
             <Ingredient name={'ghee (butter + oil)'} quantity={'2tbsp'} />
             <Ingredient name={'diced onion'} quantity={'1large'} />
             <Ingredient name={'minced garlic'} quantity={'1tbsp'} />
