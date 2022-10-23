@@ -5,6 +5,7 @@ specifiers:
   '@chakra-ui/react': ^2.3.1
   '@emotion/react': ^11.10.4
   '@emotion/styled': ^11.10.4
+  font-face: ^2.3.4
   framer-motion: ^7.2.1
   next: ^12.2.5
   react: ^18.2.0
@@ -15,6 +16,7 @@ dependencies:
   '@chakra-ui/react': 2.3.2_d7ib6573xkien5h2u2acubrhem
   '@emotion/react': 11.10.4_react@18.2.0
   '@emotion/styled': 11.10.4_gyryel6m34lsxtsejhafetjriq
+  font-face: 2.3.4
   framer-motion: 7.3.5_biqbaboplfbrettd7655fr4n2y
   next: 12.3.0_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
@@ -1554,6 +1556,10 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       tslib: 2.4.0
+    dev: false
+
+  /font-face/2.3.4:
+    resolution: {integrity: sha512-7Ko9gU36xbTmyeh7mfyJrYB4Gwz6cI+Q/DRMJeAdq3qN8lzlLN5uMTLheCMUpHGStRKLM/mKCv+Pp7zjfMtBxQ==}
     dev: false
 
   /framer-motion/7.3.5_biqbaboplfbrettd7655fr4n2y:
