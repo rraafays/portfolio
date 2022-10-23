@@ -5,6 +5,7 @@ import { ReviewGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
 import ModalSoul from '../public/images/reviews/modal-soul.jpeg'
+import Ramona from '../public/images/reviews/ramona.png'
 
 const SoundAdvice = () => {
   return (
@@ -35,6 +36,15 @@ const SoundAdvice = () => {
               cover={ModalSoul}
             >
               Nujabes
+            </ReviewGridItem>
+          </Section>
+          <Section>
+            <ReviewGridItem
+              id={'ramona'}
+              title={'RAMONA'}
+              cover={Ramona}
+            >
+              Kill Bill
             </ReviewGridItem>
           </Section>
         </SimpleGrid>
