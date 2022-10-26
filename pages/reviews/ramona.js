@@ -39,19 +39,17 @@ const Page = () => {
           <Track
             n={2}
             title={'Hola'}
-            stars={'★★★★★'}
+            stars={'★★★★☆'}
           >
-            More mellow than Backwoods yet no less meaninful, this tune is Kill Bill
-            rightfully boasting his unique style. This chiller format of tunes with the
-            gentle break half way through to song is something I really love.
           </Track>
           <Track
             n={3}
             title={'FVCK'}
             stars={'★★★★☆'}
           >
-            So far this song sports the saddest rhymes and almost trip hop level of slow
-            beats to boot. The beats are so mesmerizingly amazing and must have felt especially
+            Featuring the saddest rhymes and an almost trip hop level of slow
+            beats this is one of my favourite songs on this release.
+            The beats are mesmerizing and must have felt especially
             unique in context of the time this album was released.
             I do wish this song was a bit longer and that the ending was used as more of a break
             that leads to more vocals from Kill Bill.
@@ -59,12 +57,8 @@ const Page = () => {
           <Track
             n={4}
             title={'Chinatown'}
-            stars={'★★★★☆'}
+            stars={'★★★☆☆'}
           >
-            Kill Bill's rapping is great here describing a passing romance with such skill and detail.
-            The only thing I'm not a fan of is Rav's lyrics for the chorus, they feel quite anemic
-            and repetitive but Kill Bill's heartfelt rapping more than makes up for that.
-            The beat is quite minimal but fits with the almost story driven nature of this song.
           </Track>
           <Track
             n={5}
@@ -82,10 +76,58 @@ const Page = () => {
             title={'Black Coffee'}
             stars={'★★★★★'}
           >
-            Ah Black Coffee, possibly my absolute favourite song in this already strong album,
+            Black Coffee might possibly my absolute favourite song in this already strong album,
             this song tells a story possibly about the same girl and Kill Bill's drifting feelings.
             The beat is so up my alley reminding me of a more spacey take on Nujabes.
             Lyrically this song is so relatable, he's regretting and judging his decisions.
+          </Track>
+          <Track
+            n={7}
+            title={'Then There\'s Me'}
+            stars={'★★★★☆'}
+          >
+          </Track>
+          <Track
+            n={8}
+            title={'Conversations with Gravity'}
+            stars={'★★★★★'}
+          >
+          </Track>
+          <Track
+            n={9}
+            title={'水 水 水 (Feat. JINZO THE TRAP LORD)'}
+            stars={'★★★☆☆'}
+          >
+          </Track>
+          <Track
+            n={10}
+            title={'Abandoned 2 (Feat. Rav)'}
+            stars={'★★★★☆'}
+          >
+          </Track>
+          <Track
+            n={11}
+            title={'Pork (Feat. Rav)'}
+            stars={'★★★★☆'}
+          >
+            Beautiful violin samples are used in this track, Kill Bill's lyrics are talking about
+            his different path in life and lack of support from family and friends.
+            This is one of the rare cases where I like Rav's vocals he sounds much better with a slow flow.
+          </Track>
+          <Track
+            n={12}
+            title={'Good Luck Chuck'}
+            stars={'★★★★★'}
+          >
+            Narratively driven, this track tells a tragic story of a med student who got into
+            stripping and eventually met a wolf in sheep's clothing called chuck.
+            Kill Bill really gives a much darker tone fitting for the theme of track.
+          </Track>
+          <Track
+            n={13}
+            title={'4:37 P.M. [Subspace]'}
+            stars={'★★☆☆☆'}
+          >
           </Track>
         </Section>
       </Container>
