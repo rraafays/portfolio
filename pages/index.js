@@ -21,7 +21,7 @@ const Page = () => {
             <Heading as={'h2'} variant={'page-title'}>
               Raf Shahid
             </Heading>
-            <p>'Digital Chef' ( Developer / Painter / Cook )</p>
+            <p>'Digital Chef' ( Developer / Painter / Cook / Mechanic )</p>
           </Box>
           <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align={'center'}>
             <Image
