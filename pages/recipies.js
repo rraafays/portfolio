@@ -1,10 +1,11 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Divider, Th } from '@chakra-ui/react'
 import Section from '../components/section'
 import { RecipieGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
 import ButterChickenThumb from '../public/images/recipies/butter-chicken-masala-1-1.jpeg'
 import KoreanFriedChickenThumb from '../public/images/recipies/korean-fried-chicken.jpeg'
+import ThaiChickenCurry from '../public/images/recipies/thai-chicken-curry.jpeg'
 
 const Recipies = () => {
   return (
@@ -30,6 +31,15 @@ const Recipies = () => {
               thumbnail={KoreanFriedChickenThumb}
             >
               Crispy, spicy fried chicken with korean style gochujang sauce or spicy mayo
+            </RecipieGridItem>
+          </Section>
+          <Section>
+            <RecipieGridItem
+              id={'thai-chicken-curry'}
+              title={'Thai Chicken Curry'}
+              thumbnail={ThaiChickenCurry}
+            >
+              Sweet, spicy and juicy thai chicken curry with creamy thai red sauce
             </RecipieGridItem>
           </Section>
         </SimpleGrid>
