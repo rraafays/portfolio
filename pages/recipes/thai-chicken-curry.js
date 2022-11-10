@@ -10,7 +10,7 @@ import {
   Banner,
   Step,
   Ingredient
-} from '../../components/recipie'
+} from '../../components/recipe'
 import Section from '../../components/section'
 import Layout from '../../components/layouts/article'
 
@@ -18,7 +18,7 @@ const Page = () => {
   return (
     <Layout>
       <Container>
-        <Banner src={'/images/recipies/thai-chicken-curry.jpeg'}></Banner>
+        <Banner src={'/images/recipes/thai-chicken-curry.jpeg'}></Banner>
         <Title>
           Thai Chicken Curry{' '}
           <Badge bgColor={'rgba(204, 36, 29, 0.3)'}>🌶️</Badge>

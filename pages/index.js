@@ -102,7 +102,7 @@ const Page = () => {
             Interests
           </Heading>
           <Paragraph>
-            <Link href='/recipies' color={useColorModeValue('#79740E', '#B8BB26')}>Cooking</Link>,{' '}
+            <Link href='/recipes' color={useColorModeValue('#79740E', '#B8BB26')}>Cooking</Link>,{' '}
             <Link href='/artworks' color={useColorModeValue('#AF3A03', '#FE8019')}>Art</Link>,{' '}
             <Link href='/playlists' color={useColorModeValue('#076678', '#83A598')}>Music</Link>, Audio Equipment, Device Restoration, Cars
           </Paragraph>

@@ -10,7 +10,7 @@ import {
   Banner,
   Step,
   Ingredient
-} from '../../components/recipie'
+} from '../../components/recipe'
 import Section from '../../components/section'
 import Layout from '../../components/layouts/article'
 
@@ -18,7 +18,7 @@ const Page = () => {
   return (
     <Layout>
       <Container>
-        <Banner src={'/images/recipies/butter-chicken-masala-1-1.jpeg'}></Banner>
+        <Banner src={'/images/recipes/butter-chicken-masala-1-1.jpeg'}></Banner>
         <Title>
           Murgh Makhani Masala{' '}
           <Badge bgColor={'rgba(204, 36, 29, 0.3)'}>🌶️🌶️</Badge>

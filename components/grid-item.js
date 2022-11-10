@@ -40,9 +40,9 @@ export const ProjectGridItem = ({ children, id, title, thumbnail }) => (
   </Box>
 )
 
-export const RecipieGridItem = ({ children, id, title, thumbnail }) => (
+export const RecipeGridItem = ({ children, id, title, thumbnail }) => (
   <Box w={'100%'} textAlign={'center'}>
-    <NextLink href={`/recipies/${id}`} passHref scroll={false}>
+    <NextLink href={`/recipes/${id}`} passHref scroll={false}>
       <LinkBox cursor={'pointer'}>
         <Image
           src={thumbnail}
