@@ -5,6 +5,7 @@ import Layout from '../components/layouts/article'
 
 import GentooThumb from '../public/images/projects/GentooThumb.png'
 import PomoThumb from '../public/images/projects/PomoThumb.png'
+import SocksThumb from '../public/images/projects/SocksThumb.png'
 
 const Projects = () => {
   return (
@@ -36,7 +37,7 @@ const Projects = () => {
             <ProjectGridItem
               id={'socks'}
               title={'socks'}
-              thumbnail={GentooThumb}
+              thumbnail={SocksThumb}
             >
               Multithreaded client-server messaging application written in Java
             </ProjectGridItem>

@@ -17,6 +17,7 @@ const Socks = () => {
   return (
     <Layout>
       <Container>
+        <Banner src={'/images/projects/SocksThumb.png'} />
         <Title>
           socks <Badge>2022</Badge><Repo href={'https://github.com/rraafays/socks'}>github</Repo>
         </Title>
