@@ -22,8 +22,8 @@ const Socks = () => {
           socks <Badge>2022</Badge><Repo href={'https://github.com/rraafays/socks'}>github</Repo>
         </Title>
         <Paragraph>
-          Socket based client-server messaging application I am currently working on
-          while learning java as part of my Networked Software Development module at university.
+          Socket based client-server chat application which uses JSON protocols as per my university's
+          Networked Software Development module assignment specification.
         </Paragraph>
         <List ml={4} my={4}>
           <ListItem>
@@ -33,7 +33,7 @@ const Socks = () => {
             <Info>lang</Info><span>Java</span>
           </ListItem>
           <ListItem>
-            <Info>flow</Info><span>vim, javac</span>
+            <Info>flow</Info><span>vim, javac, gradle, gcc</span>
           </ListItem>
           <ListItem>
             <Info>form</Info><span>Chat Application</span>
