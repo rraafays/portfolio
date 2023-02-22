@@ -6,6 +6,7 @@ import Layout from '../components/layouts/article'
 import ButterChickenThumb from '../public/images/recipes/butter-chicken-masala-1-1.jpeg'
 import KoreanFriedChickenThumb from '../public/images/recipes/korean-fried-chicken.jpeg'
 import ThaiChickenCurry from '../public/images/recipes/thai-chicken-curry.jpeg'
+import EomukBokkeum from '../public/images/recipes/eomuk-bokkeum.jpeg'
 
 const Recipes = () => {
   return (
@@ -40,6 +41,15 @@ const Recipes = () => {
               thumbnail={ThaiChickenCurry}
             >
               Sweet, spicy and juicy thai chicken curry with creamy thai red sauce
+            </RecipeGridItem>
+          </Section>
+          <Section>
+            <RecipeGridItem
+              id={'eomuk-bokkeum'}
+              title={'Eomuk Bokkeum'}
+              thumbnail={EomukBokkeum}
+            >
+              Cheap, quick flavourful korean lunchbox meal
             </RecipeGridItem>
           </Section>
         </SimpleGrid>
