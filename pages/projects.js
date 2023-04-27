@@ -30,7 +30,7 @@ const Projects = () => {
               title={'pomo'}
               thumbnail={PomoThumb}
             >
-              Terminal pomodoro timer written in C
+              Terminal pomodoro timer written in Rust
             </ProjectGridItem>
           </Section>
           <Section>
